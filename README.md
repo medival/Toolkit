@@ -1,4 +1,5 @@
 # My Essentials Tools for Working
 
- - Winbox
- - Ubiquiti Firmware (XM, XW)
+- Winbox
+- Mikrotik Voucher Generator
+- Ubiquiti Firmware (XM, XW)
