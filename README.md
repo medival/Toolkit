@@ -32,6 +32,7 @@
 7. Get code of current country with command `cat /tmp/system.cfg | grep code`
 8. Then code will show like this
 	>radio.1.countrycode=360
+	
 	>radio.countrycode=360
 9. Then find country code u want to set
 10. Change country code in system.cfg by using command `sed -i 's/countrycode=360/countrycode=511/g' /tmp/system.cfg`
@@ -39,6 +40,7 @@
 12. Then check country code has changed with command `cat /tmp/system/cfg` 
 13. If country code has changed will be like this
 	>radio.1.countrycode=511
+	
 	>radio.countrycode=511
 14. Save config by running command `save`
 15. Reboot devices to apply new config by running command `reboot`
