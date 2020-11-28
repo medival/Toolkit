@@ -805,16 +805,16 @@ https://time.nl/index_en.html
 
 1. Set email
    ```
-   /tool  e-mail
-   set  address=mail.pro2pray.com from=auto_backup@pro2pray.com password=\
-   passowrd port=587 start-tls=yes user=\
+   /tool e-mail
+   set address=mail.pro2pray.com from=auto_backup@pro2pray.com password=\
+   password port=587 start-tls=yes user=\
    auto_backup@pro2pray.com
    ```
 2. Create script auto-backup-email
 
    ```
-   /system  script
-   add dont-require-permissions=no name=Auto-Backup-Email owner=ubnt10 policy=\
+   /system script
+   add dont-require-permissions=no name=Auto-Backup-Email  policy=\
    ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source=":\
    log info \"Auto Backup Started\"\r\
    \n:global date [/system clock get date]\r\
