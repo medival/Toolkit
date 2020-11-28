@@ -8,6 +8,7 @@
 - NTP Pool
 - Auto Backup Script via Email
 - Hotspot Template
+- Putty
 
 ### Here how to show compliance test in ubnt radio
 
