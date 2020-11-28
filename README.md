@@ -7,7 +7,7 @@
 
 ### Here how to show compliance test in ubnt radio
 
-*This only works on ubnt firmware < v6.1.6*
+_This only works on ubnt firmware < v6.1.6_
 
 1. Set your ip 192.168.1.x
 2. Open ssh with [putty](https://the.earth.li/~sgtatham/putty/latest/w32/putty-0.74-installer.msi) or using Terminal if using linux
@@ -20,10 +20,9 @@
 9. Login to your ubnt devices
 10. There should be Compliance Test in your country
 
+### How to change country in ubnt devices without reset
 
-###  How to change country in ubnt devices without reset
-
-1. Open ssh tools like  [putty](https://the.earth.li/~sgtatham/putty/latest/w32/putty-0.74-installer.msi)  or terminal if using linux
+1. Open ssh tools like [putty](https://the.earth.li/~sgtatham/putty/latest/w32/putty-0.74-installer.msi) or terminal if using linux
 2. Login to your ubnt devices
 3. Then show prompt, click yes
 4. Type your password
@@ -31,137 +30,140 @@
 6. Add compliance test by running command `touch /etc/persistent/ct`
 7. Get code of current country with command `cat /tmp/system.cfg | grep code`
 8. Then code will show like this
-	>radio.1.countrycode=360
-	
-	>radio.countrycode=360
+
+   > radio.1.countrycode=360
+
+   > radio.countrycode=360
+
 9. Then find country code u want to set
 10. Change country code in system.cfg by using command `sed -i 's/countrycode=360/countrycode=511/g' /tmp/system.cfg`
 11. Change country code in running.cfg by using command `sed -i 's/countrycode=360/countrycode=511/g' /tmp/running.cfg`
-12. Then check country code has changed with command `cat /tmp/system/cfg` 
+12. Then check country code has changed with command `cat /tmp/system/cfg`
 13. If country code has changed will be like this
-	>radio.1.countrycode=511
-	
-	>radio.countrycode=511
+
+    > radio.1.countrycode=511
+
+    > radio.countrycode=511
+
 14. Save config by running command `save`
 15. Reboot devices to apply new config by running command `reboot`
 16. Then country will be changed.
 
 Full of country code available here
-|Country Code	  |Country			            |
+|Country Code |Country |
 |---------------|-------------------------|
-|32				      | Argentina		            |
-|51				      | Armenia			            |
-|533			      | Aruba				            |
-|36				      | Australia		            |
-|40				      | Austria			            |
-|31				      | Azerbaijan	            |
-|48				      | Bahrain		            	|
-|52				      | Barbados	            	|
-|112			      | Belarus		            	|
-|56				      | Belgium		            	|
-|84				      | Belize		            	|
-|68				      | Bolivia		            	|
-|70				      | Bosnia and Herzegovina  |
-|76				      | Brazil			            |
-|96				      | Brunei Darussalam	      |
-|100			      | Bulgaria		           	|
-|116			      | Cambodia			          |
-|124			      | Canada			            |
-|152			      | Chile				            |
-|156			      | China				            |		
-|170			      | Colombia		           	|
-|511			      | Compliance Test       	|
-|188			      | Costa Rica	          	|
-|191			      | Croatia			            |
-|196			      | Cyprus		            	|
-|203			      | Czech Republic	        |
-|208			      | Denmark		            	|
-|214			      | Dominican Republic      |
-|218			      | Ecuador			            |
-|818			      | Egypt			            	|
-|222			      | El Salvador		          |
-|233			      | Estonia		            	|
-|246			      | Finland			            |
-|250			      | France		            	|
-|268			      | Georgia		            	|
-|276			      | Germany		            	|
-|300			      | Greece		            	|
-|304			      | Greenland		            |
-|308			      | Grenada		            	|
-|316			      | Guam			            	|
-|320			      | Guatemala			          |
-|332			      | Haiti			            	|
-|340			      | Honduras			          |
-|344			      | Hong Kong			          |
-|348			      | Hungary		            	|
-|352			      | Iceland		            	|
-|356			      | India			            	|
-|360			      | Indonesia			          |
-|368			      | Iraq			            	|
-|372			      | Ireland		            	|
-|376			      | Israel		            	|
-|380			      | Italy			            	|
-|388			      | Jamaica		            	|
-|400			      | Jordan		            	|
-|404			      | Kenya			            	|
-|410			      | Korea Republic        	|
-|414			      | Kuwait			            |
-|428			      | Latvia		            	|
-|422			      | Lebanon		            	|
-|438			      | Liechtenstein	          |
-|440			      | Lithuania			          |
-|442			      | Luxembourg		          |
-|446			      | Macau			            	|
-|807			      | Macedonia			          |
-|458			      | Malaysia			          |
-|470			      | Malta			            	|
-|484			      | Mexico		            	|
-|492			      | Monaco		            	|
-|504			      | Morocco		            	|
-|524			    | Nepal				              |
-|528			    | Netherlands	            	|
-|530			    | Netherlands Antilles      |
-|554			    | New Zealand	            	|
-|566			    | Nigeria			              |
-|578			    | Norway			              |
-|512			    | Oman				              |	
-|586		    	| Pakistan		            	|
-|591			    | Panama			              |	
-|598			    | Papua New Guinea	        |
-|604			    | Peru				              |
-|608			    | Philippines	            	|
-|616			    | Poland			              |
-|620			    | Portugal		            	|
-|630			    | Puerto Rico (U.S. territory)|
-|634			    | Qatar				              |
-|642			    | Romania			              |
-|643			    | Russia			              |
-|646			    | Rwanda			              |
-|652			    | Saint Barthelemy	        |
-|682			    | Saudi Arabia		          |
-|891			    | Serbia and Montenegro     |
-|702			    | Singapore		            	|
-|703			    | Slovakia		            	|
-|705			    | Slovenia		            	|
-|710			    | South Africa		          |
-|724			    | Spain				              |
-|144			    | Sri Lanka		            	|
-|752			    | Sweden			              |
-|756			    | Switzerland           		|
-|158			    | Taiwan			              |
-|764			    | Thailand		            	|
-|780			    | Trinidad and Tobago       |
-|788			    | Tunisia			              |
-|792			    | Turkey			              |
-|804			    | Ukraine		            	  |
-|784			    | United Arab Emirates      |
-|826			    | United Kingdom	          |
-|840			    | United States		          |
-|858			    | Uruguay			              |
-|860		    	| Uzbekistan		            |
-|862			    | Venezuela			            |
-|704		    	| Viet Nam			            |
-
+|32 | Argentina |
+|51 | Armenia |
+|533 | Aruba |
+|36 | Australia |
+|40 | Austria |
+|31 | Azerbaijan |
+|48 | Bahrain |
+|52 | Barbados |
+|112 | Belarus |
+|56 | Belgium |
+|84 | Belize |
+|68 | Bolivia |
+|70 | Bosnia and Herzegovina |
+|76 | Brazil |
+|96 | Brunei Darussalam |
+|100 | Bulgaria |
+|116 | Cambodia |
+|124 | Canada |
+|152 | Chile |
+|156 | China |
+|170 | Colombia |
+|511 | Compliance Test |
+|188 | Costa Rica |
+|191 | Croatia |
+|196 | Cyprus |
+|203 | Czech Republic |
+|208 | Denmark |
+|214 | Dominican Republic |
+|218 | Ecuador |
+|818 | Egypt |
+|222 | El Salvador |
+|233 | Estonia |
+|246 | Finland |
+|250 | France |
+|268 | Georgia |
+|276 | Germany |
+|300 | Greece |
+|304 | Greenland |
+|308 | Grenada |
+|316 | Guam |
+|320 | Guatemala |
+|332 | Haiti |
+|340 | Honduras |
+|344 | Hong Kong |
+|348 | Hungary |
+|352 | Iceland |
+|356 | India |
+|360 | Indonesia |
+|368 | Iraq |
+|372 | Ireland |
+|376 | Israel |
+|380 | Italy |
+|388 | Jamaica |
+|400 | Jordan |
+|404 | Kenya |
+|410 | Korea Republic |
+|414 | Kuwait |
+|428 | Latvia |
+|422 | Lebanon |
+|438 | Liechtenstein |
+|440 | Lithuania |
+|442 | Luxembourg |
+|446 | Macau |
+|807 | Macedonia |
+|458 | Malaysia |
+|470 | Malta |
+|484 | Mexico |
+|492 | Monaco |
+|504 | Morocco |
+|524 | Nepal |
+|528 | Netherlands |
+|530 | Netherlands Antilles |
+|554 | New Zealand |
+|566 | Nigeria |
+|578 | Norway |
+|512 | Oman |
+|586 | Pakistan |
+|591 | Panama |
+|598 | Papua New Guinea |
+|604 | Peru |
+|608 | Philippines |
+|616 | Poland |
+|620 | Portugal |
+|630 | Puerto Rico (U.S. territory)|
+|634 | Qatar |
+|642 | Romania |
+|643 | Russia |
+|646 | Rwanda |
+|652 | Saint Barthelemy |
+|682 | Saudi Arabia |
+|891 | Serbia and Montenegro |
+|702 | Singapore |
+|703 | Slovakia |
+|705 | Slovenia |
+|710 | South Africa |
+|724 | Spain |
+|144 | Sri Lanka |
+|752 | Sweden |
+|756 | Switzerland |
+|158 | Taiwan |
+|764 | Thailand |
+|780 | Trinidad and Tobago |
+|788 | Tunisia |
+|792 | Turkey |
+|804 | Ukraine |
+|784 | United Arab Emirates |
+|826 | United Kingdom |
+|840 | United States |
+|858 | Uruguay |
+|860 | Uzbekistan |
+|862 | Venezuela |
+|704 | Viet Nam |
 
 #Public NTP Client
 
@@ -585,9 +587,7 @@ ru.pool.ntp.org
 
 3.amazon.pool.ntp.org
 
-
 ## Other:
-
 
 ### .mil:
 
@@ -596,7 +596,6 @@ tick.usno.navy.mil
 tock.usno.navy.mil
 
 ntp2.usno.navy.mil
-
 
 ### .edu:
 
@@ -622,13 +621,11 @@ ntp.colby.edu
 
 ntp-s1.cise.ufl.edu
 
-
 ### .com:
 
 ntpstm.netbone-digital.com
 
 nist1.symmetricom.com
-
 
 ### .net:
 
@@ -648,11 +645,9 @@ navobs1.oar.net
 
 ntp-galway.hea.net
 
-
 ### .org:
 
 ntp1.ona.org
-
 
 ## .de:
 
@@ -684,25 +679,21 @@ rustime01.rus.uni-stuttgart.de
 
 rustime02.rus.uni-stuttgart.de
 
-
 ### .nl:
 
 chime1.surfnet.nl
 
 ntp.vsl.nl
 
-
 ### .at:
 
 asynchronos.iiss.at
-
 
 ### .cz:
 
 ntp.nic.cz
 
 time.ufe.cz
-
 
 ### .pl:
 
@@ -712,13 +703,11 @@ tempus1.gum.gov.pl
 
 tempus2.gum.gov.pl
 
-
 ### .ro:
 
 ntp1.usv.ro
 
 ntp3.usv.ro
-
 
 ### .se:
 
@@ -726,13 +715,11 @@ timehost.lysator.liu.se
 
 time1.stupi.se
 
-
 ### .ca:
 
 time.nrc.ca
 
 clock.uregina.ca
-
 
 ### .mx:
 
@@ -740,13 +727,11 @@ cronos.cenam.mx
 
 ntp.lcf.mx
 
-
 ### .es:
 
 hora.roa.es
 
 minuto.roa.es
-
 
 ### .it:
 
@@ -754,56 +739,45 @@ ntp1.inrim.it
 
 ntp2.inrim.it
 
-
 ### .be:
 
 ntp1.oma.be
 
 ntp2.oma.be
 
-
 ### .hu:
 
 ntp.atomki.mta.hu
-
 
 ### .eus:
 
 ntp.i2t.ehu.eus
 
-
 ### .ch:
 
 ntp.neel.ch
-
 
 ### .cn:
 
 ntp.neu.edu.cn
 
-
 ### .jp:
 
 ntp.nict.jp
-
 
 ### .br:
 
 ntps1.pads.ufrj.br
 
-
 ### .cl:
 
 ntp.shoa.cl
-
 
 ### .int:
 
 time.esa.int
 
 time1.esa.int
-
-
 
 http://support.ntp.org/bin/view/Servers/StratumOneTimeServers
 
@@ -827,4 +801,66 @@ https://time.nl/
 
 https://time.nl/index_en.html
 
+### Auto Backup via Email
 
+1. Set email
+   ```
+   /tool  e-mail
+   set  address=mail.pro2pray.com from=auto_backup@pro2pray.com password=\
+   passowrd port=587 start-tls=yes user=\
+   auto_backup@pro2pray.com
+   ```
+2. Create script auto-backup-email
+
+   ```
+   /system  script
+   add dont-require-permissions=no name=Auto-Backup-Email owner=ubnt10 policy=\
+   ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon source=":\
+   log info \"Auto Backup Started\"\r\
+   \n:global date [/system clock get date]\r\
+   \n:global d [:pick \$date 4 6]\r\
+   \n:global m [:pick \$date 0 3]\r\
+   \n:global y [:pick \$date 7 11]\r\
+   \n:global id [/system identity get name]\r\
+   \n\r\
+   \n:global backupfile (\"Auto Backup \" .\$id.\"  \".[/system clock get time\
+   ].\"@\".\"\$d-\$m-\$y\")\r\
+   \n/system backup save name=\$backupfile\r\
+   \n:log info \"backup pausing for 10s\"\r\
+   \n:delay 10s\r\
+   \n:log info \"backup will send to mail\"\r\
+   \n/tool e-mail send to=\"dev.adipurnomo@gmail.com\" subject=\"Auto Backup \
+   \$id\" from=\"auto_backup@pro2pray.com\" file=\$backupfile server=103.251.\
+   44.209\r\
+   \n:delay 30s\r\
+   \n/file remove \$backupfile\r\
+   \n:log info \"Auto Backup Finished\""
+   ```
+
+3. Create scheduer (auto repeat every 7 days)
+
+   ```
+   /system scheduler
+   add interval=1w name="Weekly Backup" on-event=Auto-Backup-Email policy=\
+   ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon \
+   start-date=dec/01/2020 start-time=07:00:00
+   ```
+
+4. Essentials Source native script
+   ```
+   :log info "Auto Backup Started"
+   :global date [/system clock get date]
+   :global d [:pick $date 4 6]
+   :global m [:pick $date 0 3]
+   :global y [:pick $date 7 11]
+   :global id [/system identity get name]
+   :global backupfile ("Auto Backup " .$id." ".[/system clock get time]."@"."$d-$m-$y")
+   /system backup save name=$backupfile
+   :log info "backup pausing for 10s"
+   :delay 10s
+   :log info "backup will send to mail"
+   /tool e-mail send to="dev.adipurnomo@gmail.com" subject="Auto Backup $id" from="auto_backup@pro2pray.com" file=$backupfile server=103.251.44.209
+   :delay 30s
+   /file remove $backupfile
+   :log info "Auto Backup Finished"
+   ```
