@@ -4,6 +4,10 @@
 - Mikrotik Voucher Generator
 - Ubiquiti Firmware (XM, XW)
 - Ubnt Discovery
+- How to Crack Ubnt Radio without Reset
+- NTP Pool
+- Auto Backup Script via Email
+- Hotspot Template
 
 ### Here how to show compliance test in ubnt radio
 
