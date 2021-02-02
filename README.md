@@ -9,6 +9,7 @@
 - Auto Backup Script via Email
 - Hotspot Template
 - Putty
+- Voucher Template
 
 ### Here how to show compliance test in ubnt radio
 
