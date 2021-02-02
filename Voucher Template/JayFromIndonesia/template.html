@@ -1,0 +1,193 @@
+<!--- Salin kode di bawah ini ke kode HTML HEADER -->	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Voucher Hotspot</title>
+	<link href="https://fonts.googleapis.com/css?family=Amaranth|Coda|Mitr|Oswald|Righteous|Russo+One|Teko" rel="stylesheet">
+	<script type="text/javascript" src="https://github.com/JayFromIndonesia/VoucherTemplate/js/jquery.min.js"></script>
+	<script type="text/javascript" src="https://github.com/JayFromIndonesia/VoucherTemplate/js/qrcode.js"></script>
+	<style>
+	@media print{
+		.body{
+			display:none
+		}
+		.pagebreak{
+			page-break-after:always
+		}
+	}
+	body{
+		font-family:'Oswald',sans-serif;
+	}
+	
+		.canvas{
+			background-image:url(https://github.com/JayFromIndonesia/VoucherTemplate/img/voucher.jpg);
+			background-color:#DFE0E1;
+			background-size:cover;
+			width:227px;
+			height:151px;
+			margin:3px 3px 3px 3px;
+			padding:0;
+			float:left;
+		}
+		.row{
+			width:200px;
+			margin:3px 0 3px 3px;
+			height:145px;
+			float:left;
+		}
+		.tittle{
+			width:150px;
+			height:35px;
+		}
+		.tittle h5{
+			line-height:15px;
+			margin:0;
+			font-size:15px;
+			padding-left:21px;
+			padding-top:5px;
+			font-family:'Righteous',cursive;
+		}
+		.tittle h5 span{
+			color:#D9141A;
+		}
+		.tittle p{
+			margin:0;
+			font-size:9px;
+			line-height:8px;
+			padding-left:21px;
+		}
+		.konten{
+			width:51%;
+			height:75px;
+			margin-top:35px;
+			margin-left:4%;
+			float:left;
+		}
+		.konten p{
+			margin:0;
+			font-size:12px;
+			line-height:11px;
+			font-family:'Teko',sans-serif;
+			color:#383635;
+		}
+		.konten p .a{
+			margin-left:2px;
+		}
+		.konten p .b{
+			margin-left:16px;
+		}
+		.konten h5{
+			margin:0;
+			font-size:7px;
+			line-height:8px;
+			color:#D9141A;
+			font-family:'Righteous',cursive;
+			font-weight:400;
+		}
+		.konten .footer{
+			margin:7px 0 0 28px;
+		}
+		.konten .footer h4{
+			margin:0;
+			font-size:10px;
+			line-height:12px;
+			color:#242323;
+			font-weight:400;
+		}
+		.user{
+			width:45%;
+			height:110px;
+			float:left;
+		}
+		.user h5{
+			margin:10px 0 0 18px;
+			font-size:10px;
+			line-height:12px;
+			color:#474443;
+			font-weight:400;
+		}
+		.user h4{
+			width:75%;
+			background-color:rgba(240,133,25,.3);
+			margin:2px 0 0 10px;
+			font-size:12px;
+			line-height:12px;
+			padding:1px 3px 3px 3px;
+			color:#000000;
+			text-align:center;
+			border:1px solid #D9141A;
+			border-radius:8px;
+			letter-spacing:1px;
+			font-weight:400;
+		}
+		.side{
+			width:23px;
+			height:145px;
+			float:left;
+			margin-top:3px;
+		}
+		.side p{
+			margin-top:55px;
+			margin-right:1px;
+			color:#fff;
+			font-size:17px;
+			font-weight:700;
+			font-family:'Coda',cursive;
+			-webkit-transform:rotate(90deg);
+			-moz-transform:rotate(90deg);
+			-ms-transform:rotate(90deg);
+			-o-transform:rotate(90deg);
+			transform:rotate(90deg);
+		}
+		.qrcode{
+			width:62px;
+			margin-top:1px;
+			margin-left:15px;
+			padding:2px;
+			background-color:#fff;
+		}
+	</style>
+</head>
+<body>
+	
+<!--- Salin kode di bawah ini ke kode HTML ROW -->
+	<div class="canvas">
+		<div class="row">
+			<div class="tittle">
+				<h5><span>RAFFA</span>NET</h5>
+				<p>Akses Internet Keluarga</p>
+			</div>
+			<div class="konten">
+				<p>Masa Aktif <span class="a">: s/d jam 6 pagi</span></p>
+				<p>Speed <span class="b">: 768 Kbps</span></p>
+				<h5>Nikmati internet Unlimited.... bebas quota tanpa batas!....</h5>
+				<div class="footer">
+					<h4>RAFFA-GROUP (CS)</h4>
+					<h4>0877.09999.147</h4>
+				</div>
+			</div>
+			<div class="user">
+				<h5>KODE VOUCHER</h5>
+				<h4>%username%</h4>
+				<div class="qrcode" id="%username%">
+				</div>
+			</div>
+		</div>
+		<div class="side">
+			<p>2000</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var qrcode = new QRCode("%username%", { text: "http://xnxx.com/login?username=%username%&password=%username%", width: 62,height: 62 });
+	</script>
+
+<!--- Salin kode di bawah ini ke kode HTML FOOTER -->
+</body>
+</html>
+
+<!--- Salin kode di bawah ini ke kode HTML BREAK -->
+<p class="noprint" style="font-size: 10px">
+................ page break ................ 
+</p> 
+<p class="pagebreak">&nbsp;</p>
