@@ -884,3 +884,15 @@ https://time.nl/index_en.html
 8. Add printer the select the TMU220
 9. If still not show, go to Addtional Printer Setting
 10. Click Add then select printer URI
+
+Addtional command to check USB Devices connected in linux
+- $ lsusb
+- $ dmesg
+- $ dmesg | less
+
+List USB devices with usb-devices Command
+- $ usb-devices
+- $ lsblk
+- $ sudo blkid
+- $ sudo fdisk -l
+- $ lsusb
