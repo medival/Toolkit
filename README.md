@@ -873,3 +873,14 @@ https://time.nl/index_en.html
    /file remove $backupfile
    :log info "Auto Backup Finished"
    ```
+### Install Driver Printer TMU220 for Linux Family
+1. Download driver [here](https://epson.com/Support/Point-of-Sale/Impact-Printers-%28Dot-Matrix%29/Epson-TM-U220/s/SPT_C31C514103?review-filter=Linux) or [here](https://download.epson-biz.com/modules/pos/index.php?page=single_soft&cid=5012&scat=32&pcat=52)
+2. Extract and cd to directory
+3. There file named install.sh, run `sudo chmod a+x install.sh`
+4. Run install.sh `sudo ./install.sh`
+5. Select with your linux operating system
+6. Wait till installation completed, then press enter to exit
+7. Go to printer setting in your OS
+8. Add printer the select the TMU220
+9. If still not show, go to Addtional Printer Setting
+10. Click Add then select printer URI
