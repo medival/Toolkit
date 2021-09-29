@@ -1,0 +1,206 @@
+# Ubuntu 21.10
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates main restricted
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates main restricted
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-backports main restricted universe multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu impish partner
+# deb-src http://archive.canonical.com/ubuntu impish partner
+deb http://security.ubuntu.com/ubuntu impish-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu impish-security main restricted
+deb http://security.ubuntu.com/ubuntu impish-security universe
+# deb-src http://security.ubuntu.com/ubuntu impish-security universe
+deb http://security.ubuntu.com/ubuntu impish-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu impish-security multiversedeb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates main restricted
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates main restricted
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-updates multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-backports main restricted universe multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ impish-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu impish partner
+# deb-src http://archive.canonical.com/ubuntu impish partner
+deb http://security.ubuntu.com/ubuntu impish-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu impish-security main restricted
+deb http://security.ubuntu.com/ubuntu impish-security universe
+# deb-src http://security.ubuntu.com/ubuntu impish-security universe
+deb http://security.ubuntu.com/ubuntu impish-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu impish-security multiverse
+
+# Ubuntu 21.04
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates main restricted
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates main restricted
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-backports main restricted universe multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu hirsute partner
+# deb-src http://archive.canonical.com/ubuntu hirsute partner
+deb http://security.ubuntu.com/ubuntu hirsute-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu hirsute-security main restricted
+deb http://security.ubuntu.com/ubuntu hirsute-security universe
+# deb-src http://security.ubuntu.com/ubuntu hirsute-security universe
+deb http://security.ubuntu.com/ubuntu hirsute-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu hirsute-security multiversedeb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates main restricted
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates main restricted
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-updates multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-backports main restricted universe multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ hirsute-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu hirsute partner
+# deb-src http://archive.canonical.com/ubuntu hirsute partner
+deb http://security.ubuntu.com/ubuntu hirsute-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu hirsute-security main restricted
+deb http://security.ubuntu.com/ubuntu hirsute-security universe
+# deb-src http://security.ubuntu.com/ubuntu hirsute-security universe
+deb http://security.ubuntu.com/ubuntu hirsute-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu hirsute-security multiverse
+
+# Ubuntu 20.10
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates main restricted
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates main restricted
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-backports main restricted universe multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu groovy partner
+# deb-src http://archive.canonical.com/ubuntu groovy partner
+deb http://security.ubuntu.com/ubuntu groovy-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu groovy-security main restricted
+deb http://security.ubuntu.com/ubuntu groovy-security universe
+# deb-src http://security.ubuntu.com/ubuntu groovy-security universe
+deb http://security.ubuntu.com/ubuntu groovy-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu groovy-security multiversedeb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates main restricted
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates main restricted
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-updates multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-backports main restricted universe multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ groovy-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu groovy partner
+# deb-src http://archive.canonical.com/ubuntu groovy partner
+deb http://security.ubuntu.com/ubuntu groovy-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu groovy-security main restricted
+deb http://security.ubuntu.com/ubuntu groovy-security universe
+# deb-src http://security.ubuntu.com/ubuntu groovy-security universe
+deb http://security.ubuntu.com/ubuntu groovy-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu groovy-security multiverse
+
+# Ubuntu 20.04
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates main restricted
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates main restricted
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu focal partner
+# deb-src http://archive.canonical.com/ubuntu focal partner
+deb http://security.ubuntu.com/ubuntu focal-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu focal-security main restricted
+deb http://security.ubuntu.com/ubuntu focal-security universe
+# deb-src http://security.ubuntu.com/ubuntu focal-security universe
+deb http://security.ubuntu.com/ubuntu focal-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu focal-security multiversedeb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates main restricted
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates main restricted
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-updates multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu focal partner
+# deb-src http://archive.canonical.com/ubuntu focal partner
+deb http://security.ubuntu.com/ubuntu focal-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu focal-security main restricted
+deb http://security.ubuntu.com/ubuntu focal-security universe
+# deb-src http://security.ubuntu.com/ubuntu focal-security universe
+deb http://security.ubuntu.com/ubuntu focal-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu focal-security multiverse
+
+
+# Ubuntu 18.04
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates main restricted
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates main restricted
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu bionic partner
+# deb-src http://archive.canonical.com/ubuntu bionic partner
+deb http://security.ubuntu.com/ubuntu bionic-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu bionic-security main restricted
+deb http://security.ubuntu.com/ubuntu bionic-security universe
+# deb-src http://security.ubuntu.com/ubuntu bionic-security universe
+deb http://security.ubuntu.com/ubuntu bionic-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu bionic-security multiversedeb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates main restricted
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates main restricted
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates universe
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates universe
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+deb http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+# deb-src http://asia-southeast2.gce.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+# deb http://archive.canonical.com/ubuntu bionic partner
+# deb-src http://archive.canonical.com/ubuntu bionic partner
+deb http://security.ubuntu.com/ubuntu bionic-security main restricted
+# deb-src http://security.ubuntu.com/ubuntu bionic-security main restricted
+deb http://security.ubuntu.com/ubuntu bionic-security universe
+# deb-src http://security.ubuntu.com/ubuntu bionic-security universe
+deb http://security.ubuntu.com/ubuntu bionic-security multiverse
+# deb-src http://security.ubuntu.com/ubuntu bionic-security multiverse
+
